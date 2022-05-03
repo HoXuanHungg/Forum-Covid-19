@@ -1,0 +1,5 @@
+email,password,username,role,phone_number,address,date_of_birth,description,expire
+tran@gmail.com,phat123,phat,ROLE_DEALER,0356544555,nhonphu,2000/10/10,mota,2022/2/2
+tran@gmail.com,phat123,phat,ROLE_DEALER,0356544555,nhonphu,2000/10/10,mota,2022/2/2
+tran@gmail.com,phat123,phat,ROLE_DEALER,0356544555,nhonphu,2000/10/10,mota,2022/2/2
+

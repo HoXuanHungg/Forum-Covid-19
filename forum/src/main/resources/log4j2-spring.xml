@@ -1,0 +1,22 @@
+<Configuration>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss} [%t] %-5level %-50c{1.} - %msg%n"/>
+            <!--  % d cho ngày và giờ,
+                             % t cho tên luồng,
+                             % cấp cho cấp nhật ký,
+                             % c cho tên trình ghi (thường là tên gói và tên lớp),
+                              % msg cho thông báo nhật ký và
+                               % n  cho dấu phân cách dòng.    -->
+        </Console>
+        <File name="File" fileName="ErrorFile.log">
+            <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss} [%t] %-5level %-50c{1.} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>
